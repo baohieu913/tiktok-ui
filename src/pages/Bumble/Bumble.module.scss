@@ -1,0 +1,88 @@
+.wrapper {
+    background-color: #fff;
+    flex: 1;
+    height: 100vh;
+    align-items: center;
+    
+}
+.bumble {
+    padding-top: 10px;
+    width: 100%;
+    min-height: 120px;
+    text-align: center;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+.BoxBumble {
+    border-radius: 60px;
+    background-color: #fdd663;
+    min-height: 450px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+}
+.img {
+    width: 400px;
+    height: 600px;
+    border-radius: 60px;
+}
+.avatar {
+    width: 400px;
+    height: 600px;
+    border-radius: 40px 0px 0px 40px;
+}
+.profile {
+    flex-direction: column;
+    border-left-width: 50px;
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+    padding-left: 50px;
+}
+.name {
+    padding-top: 60%;
+}
+.Age {
+    padding-top: 5px;
+}
+.interest {
+    padding-top: 5px;
+    font-size: 2rem;
+}
+.describe {
+    padding-top: 5px;
+    font-size: 1.8rem;
+    width: 300px;
+    height: 200px;
+}
+.btn {
+    display: flex;
+}
+
+.BtnTicket {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.BtnCansel {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 3px;
+    cursor: pointer;
+}

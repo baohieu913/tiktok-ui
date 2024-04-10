@@ -1,0 +1,29 @@
+.wrapper {
+    width: 356px;
+    // min-height: 1000px;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    border-right-style: solid;
+}
+.MyProfile {
+    width: 356;
+    min-height: 200px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+}
+.avarta {
+    width: 56px;
+    height: 56px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.MyName {
+    font-size: 3rem;
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,88 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boxLogin {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.bumble {
+    text-align: center;
+    color: #fdd663;
+    font-size: 32px;
+    padding-top: 20px;
+    
+}
+
+.login {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.boxAccount,
+.boxPassword {
+    margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.BtnLogin {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fdd663;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.AddAndEdit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BtnEdit,
+.BtnAdd {
+    color: #ff6b6b;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.BtnFacebook,
+.BtnGmail,
+.BtnZalo {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.BtnFacebook img,
+.BtnGmail img,
+.BtnZalo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}

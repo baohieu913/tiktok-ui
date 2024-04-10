@@ -1,0 +1,14 @@
+.wrapper {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+.content {
+    flex: 1;
+    background-color: #ccc;
+}
